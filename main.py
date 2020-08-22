@@ -3,9 +3,9 @@ d[0] = ["0"]
 d[1] = ["1"]
 d[2] = ["A", "B", "C"]
 d[3] = ["D", "E", "F"]
-d[4] = ["G", "H", "I"]
+d[4] = ["G", "H"]
 d[5] = ["J", "K", "L"]
-d[6] = ["M", "N", "O"]
+d[6] = ["M", "N"]
 d[7] = ["P", "Q", "R", "S"]
 d[8] = ["T", "U", "V"]
 d[9] = ["W", "X", "Y", "Z"]
@@ -14,7 +14,7 @@ print("Enter your phone number:")
 try:
 	ph_no = str(int(input()))
 except:
-	ph_no = "8618983585"
+	ph_no = "2345678910"
 
 l = []
 for i in ph_no:
